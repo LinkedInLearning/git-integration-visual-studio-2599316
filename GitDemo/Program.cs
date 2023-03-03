@@ -1,4 +1,8 @@
-﻿using GitDemo.Repository;
+﻿using GitDemo;
+using GitDemo.Repository;
+Console.WriteLine("Todo-Demo V1.0");
+Console.WriteLine("==============");
+Console.WriteLine();
 
 var repository = new TodoRepository();
 
