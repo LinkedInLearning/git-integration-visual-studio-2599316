@@ -1,10 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-using GitDemo;
+﻿using GitDemo.Repository;
 
-var todoItems = new List<TodoItem>();
+var repository = new TodoRepository();
 
-var todo = new TodoItem { Id = 1, Title = "Anwendung fertigstellen!", IsDone = false };
-todoItems.Add(todo);
+var todoItems = repository.LoadTodos();
 
 foreach (var item in todoItems)
 {
