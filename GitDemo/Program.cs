@@ -6,9 +6,9 @@ Console.WriteLine();
 
 var repository = new TodoRepository();
 
-var todoItems = repository.LoadTodos();
+var todos = repository.LoadTodos();
 
-foreach (var item in todoItems)
+foreach (var item in todos)
 {
     Console.WriteLine($"#{item.Id} - {item.Title}, ({(item.IsDone ? "erledigt [x]": "offen [ ]")})");
 }
