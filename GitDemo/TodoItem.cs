@@ -13,6 +13,9 @@
         /// Der Titel des Eintrags
         /// </summary>
         public string Title { get; set; }
+        /// <summary>
+        /// Kennzeichnet den Status eines Eintrags
+        /// </summary>        
         public bool IsDone { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
