@@ -10,8 +10,8 @@ var todos = repository.LoadTodos();
 
 foreach (var item in todos)
 {
-    Console.WriteLine($"#{item.Id} - {item.Title}, ({(item.IsDone ? "erledigt [x]": "offen [ ]")})");
+    Console.WriteLine($"#{item.Id} - {item.Title} ({(item.IsDone ? "erledigt [x]": "offen [ ]")})");
 }
 Console.WriteLine("Bitte eine Taste drücken.");
 Console.ReadLine();
-// Einen Kommentar
+// Einen unnötiger Kommentar
