@@ -48,5 +48,3 @@ Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linke
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/git-integration-in-visual-studio
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/D4E0DAQFYbOU2GM0Jgg/learning-public-crop_675_1200/0/1684239401711?e=2147483647&v=beta&t=hO0hhqWHFUaTlBkcGW0qUD3yGmOkny65dx6VdlEOYnQ
-
-[1]: # (End of DE-Instruction 
